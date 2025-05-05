@@ -1,0 +1,73 @@
+.delivery h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+  }
+  
+  .delivery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .delivery-container > div {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: 23%;
+    min-width: 220px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  }
+  
+  .delivery-container h4 {
+    margin-bottom: 15px;
+    color: #34495e;
+  }
+  
+  .delivery-container p,
+  .delivery-container select {
+    margin-bottom: 10px;
+  }
+  
+  .delivery-container button {
+    background: #2980b9;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.3s ease;
+  }
+  
+  .delivery-container button:hover {
+    background: #1c5980;
+  }
+  
+  /* Tracking Steps */
+  .track-status {
+    list-style: none;
+    padding-left: 10px;
+  }
+  
+  .track-status li {
+    padding: 8px 0;
+    border-left: 3px solid #ccc;
+    padding-left: 10px;
+    color: #7f8c8d;
+    position: relative;
+  }
+  
+  .track-status li.active {
+    color: #2980b9;
+    font-weight: bold;
+    border-left-color: #2980b9;
+  }
+  
+  .track-status li::before {
+    content: '●';
+    position: absolute;
+    left: -12px;
+    color: inherit;
+  }
