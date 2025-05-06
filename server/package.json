@@ -24,4 +24,7 @@
     "nodemon": "^2.0.22",
     "otp-generator": "^4.0.0"
   }
+  "resolutions": {
+  "mongodb-memory-server": "^6.9.6"
+}
 }
